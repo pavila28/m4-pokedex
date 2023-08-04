@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    padding: 25px
+}
+
+.smallCard{
+    width: 300px;
+    height: 145px;
+    background-color: burlywood;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+.detailedCard{
+    width: 300px;
+    height: 200px;
+    background-color: burlywood;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex
+  }
